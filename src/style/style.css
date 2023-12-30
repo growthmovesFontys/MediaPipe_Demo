@@ -1,0 +1,55 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+
+    width: 640px;
+    height:480px;
+    position: relative;
+}
+
+#mediaBox{
+    min-height: 500px;    
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#webcam{
+
+    position:absolute;
+    width: 640px;
+    height:480px;
+
+}
+
+#output_video{
+    position:absolute;
+}
+
+
+
+.buttonBox{
+    width:640px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 100px;
+}
+
+#enableWebcamButton{
+   
+    position: relative;
+    z-index: 15;
+}
+
+button:nth-of-type(1){
+    margin-left:150px;
+}
+
+button:disabled{
+    background-color: #a9a9c2;
+}
