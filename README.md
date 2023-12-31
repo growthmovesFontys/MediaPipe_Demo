@@ -10,8 +10,8 @@ The original MediaPipe Layer can be found here: https://github.com/growthmovesFo
     npm i @mediapipe/tasks-vision
     ```
 
-2. **Add the `mediaPipeLayer/src/ts` folder to your project:**
-   Place the `mediaPipeLayer/src/ts` folder in a location convenient for your project structure.
+2. **Add the needed folders to your project:**
+   Place the `mediaPipeLayer/src/ts` and `mediaPipeLayer/src/ts` folders in a location convenient for your project structure.
 
 3. **Import components into your `Index.ts` file:**
    In your own `Index.ts` file, import the necessary components from `mediaPipeLayer/src/ts/Index.ts`.
