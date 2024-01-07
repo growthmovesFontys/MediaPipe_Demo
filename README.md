@@ -11,7 +11,7 @@ The original MediaPipe Layer can be found here: https://github.com/growthmovesFo
     ```
 
 2. **Add the needed folders to your project:**
-   Place the `mediaPipeLayer/src/ts` and `mediaPipeLayer/src/ts` folders in a location convenient for your project structure.
+   Place the `mediaPipeLayer/src/ts` and `mediaPipeLayer/src/interface` folders in a location convenient for your project structure.
 
 3. **Import components into your `Index.ts` file:**
    In your own `Index.ts` file, import the necessary components from `mediaPipeLayer/src/ts/Index.ts`.
@@ -23,7 +23,7 @@ The original MediaPipe Layer can be found here: https://github.com/growthmovesFo
    Initialize the MediaPipe components in your `Index.ts` file and pass the created `<div>` element as an argument.
 
 6. **Use MediaPipe components in your project:**
-   Leverage the MediaPipe components as needed within your project to enhance functionality.
+   Use the MediaPipe components as needed within your project to enhance functionality.
 
 7. **Compile files using webpack:**
    Compile your TypeScript files using webpack. Make sure to refer to the generated `bundle.js` in your `index.html` file.
